@@ -50,8 +50,15 @@ li:hover, li:focus{
 
 #chicken, #beef, #sushi {
   background-color: #cacaca;
-  margin-top: 20px;
-  height: 700px;
+  margin-top: 30px;
+  height: 750px;
 }
 
 /* End of Main Page*/
+
+@media (max-width: 767px) {
+#container-tile {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+}
